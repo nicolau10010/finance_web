@@ -1,0 +1,4 @@
+services:
+    transaction_handler:
+        class: AppBundle\Handler\TransactionHandler
+        arguments: ["@service_container"]
